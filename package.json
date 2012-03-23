@@ -1,0 +1,19 @@
+{
+  "author": "doortts",
+  "name": "test-samples",
+  "version": "0.0.1",
+  "homepage": "blog.doortts.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/doortts/node-test-samples.git"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": "~0.6"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
