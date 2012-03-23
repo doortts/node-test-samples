@@ -24,7 +24,7 @@ var assert = require('assert'),
 suite('git.hashValue()', function () {
     test('hello.txt file git hashValue', function (done) {
         // Given
-        var targetFile = "./test/hello.txt";
+        var targetFile = "hello.txt";
         var expectedSHA1 = "37706c351c7afbb4b0e1cb58ff7440294060dd76";
 
         // When 
@@ -39,7 +39,7 @@ suite('git.hashValue()', function () {
 
        	step(
        		function given(){
-       			f.targetFile = "./test/hello.txt";
+       			f.targetFile = "hello.txt";
 				f.expectedSHA1 = "37706c351c7afbb4b0e1cb58ff7440294060dd76";
 				ready();
        		},
